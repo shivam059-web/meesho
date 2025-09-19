@@ -131,7 +131,7 @@
     }
     .last-grid{
         grid-template-columns: 1fr 1fr 1fr;
-        margin-left:0px;
+        margin-left:100px;
     }
 
 }
@@ -152,7 +152,7 @@
     }
     .last-grid{
         grid-template-columns: 1fr 1fr 1fr;
-        margin-left:0px;
+        margin-left:100px;
     }
 }
 @media(min-width:1170px){
@@ -164,12 +164,13 @@
         margin-left:485px;
     }
 }
-@media(min-width:1650px){
+@media(min-width:1600px){
     .last-grid{
         grid-template-columns:1fr 1fr 1fr 1fr;
         margin-left:470px;
     }
 }
+
 
 
 
