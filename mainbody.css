@@ -131,6 +131,7 @@
     }
     .last-grid{
         grid-template-columns: 1fr 1fr 1fr;
+        margin-left:200px;
     }
 
 }
@@ -151,6 +152,7 @@
     }
     .last-grid{
         grid-template-columns: 1fr 1fr 1fr;
+        margin-left:200px;
     }
 }
 @media(min-width:1170px){
@@ -160,4 +162,5 @@
     .last-grid{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+
 }
