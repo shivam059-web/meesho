@@ -160,10 +160,16 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     .last-grid{
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         margin-left:485px;
     }
-
 }
+@media(min-width:1350px){
+    .last-grid{
+        grid-template-columns:1fr 1fr 1fr 1fr;
+        margin-left:485px;
+    }
+}
+
 
 
