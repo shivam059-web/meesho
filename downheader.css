@@ -1,0 +1,36 @@
+.down-header{
+    right:5px;
+    display:flex;
+    flex-direction:row;
+    position:fixed;
+    top:71px;
+    overflow-x:scroll;
+    scrollbar-width: none;
+    height:60px;
+    align-items:center;
+    left:5px;
+    z-index: 1000;
+    background-color: white;
+}
+.buttons{
+    padding-left:8px;
+    padding-right:8px;
+    height:45px;
+    margin-left:6px;
+    margin-right:6px;
+    white-space:nowrap;
+    font-size:16px;
+    font-family:arial;
+    cursor:pointer;
+    background-color: white;
+    border-style: none;
+    border-radius: 0px;
+    margin-top:13px;
+    letter-spacing: 1.5px;
+}
+.buttons:hover{
+    border-bottom:3px solid rgb(116, 29, 122);
+}
+.down-header::-webkit-scrollbar{
+    display:none;
+}

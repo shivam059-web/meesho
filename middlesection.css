@@ -1,0 +1,281 @@
+.image13{
+    height:215px;
+    margin-left: 20px;
+    margin-right:20px;
+    transition: 0.2s;
+    padding-bottom:5px;
+}
+.middlesection-1{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+    margin-top:20px;
+    height:auto;
+    margin-left:20px;
+    margin-right:20px;
+    padding-bottom:5px;
+}
+.ov{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin: 20px;
+}
+.o{
+    font-size: 32px;
+}
+.v{
+    font-size:18px;
+    margin-right:25px;
+    color:#b23a98;
+    cursor:pointer;
+}
+.touch{
+    font-size:23px;
+}
+.v:hover{
+    text-decoration: underline;
+}
+.image14{
+    display:flex;
+    flex-direction: row;
+    overflow-x: auto;
+    margin-top:20px;
+    scrollbar-width: none;
+}
+.image27{
+    width:200px;
+    height:120px;
+    display:block;
+    border-radius:10%;
+    margin-left:15px;
+    margin-right:15px;
+    background-color: white;
+}
+.image26{
+    width:100px;
+    height:auto;
+    margin-left:50px;
+    margin-top:30px;
+    display:inline-block;
+}
+.image28{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    animation: 20s 
+    linear 0s infinite scroll;
+    margin-top:15px;
+    width:fit-content;
+    
+    height:133px;
+    
+}
+.image27:hover{
+    margin-bottom:5px;
+    box-shadow:0px 2px 9px -5px rgb(82, 81, 81);
+}
+.image29{
+    
+    height:160px;
+    margin-top:5px;
+    overflow:hidden;
+    background-color:#f0e9ff;
+
+}
+.image28:hover{
+    animation-play-state:paused;
+    cursor:pointer;
+}
+.image31{
+    display:flex;
+    width:100%;
+    position:relative;
+    left:0;
+    right:0;
+}
+.image32{
+    position:relative;
+    left:0;
+    right:0;
+    max-width:100%;
+    height:auto;
+    top:5px;
+}
+.dn{
+    position:absolute;
+    left:2%;
+    bottom:5%;
+    width:120px;
+    height:40px;
+    background-color: white;
+    color:#b23a98;
+    border-radius:10px;
+    border-style: none;
+    transition: 0.1s;
+    cursor:pointer;
+    
+}
+@keyframes scroll{
+    0%{transform: translateX(0);}
+    100% {transform:translateX(-50%);}
+}
+.image13:hover{
+    opacity: 0.7;
+    cursor:pointer;
+    
+}
+.image34{
+    position: absolute;
+    left:32%;
+    height:130px;
+    top:0%;
+    z-index:1;
+    top:5px;
+    cursor:pointer;
+}
+.dp{
+    position: absolute;
+    left:47%;
+    height:130px;
+    top:0%;
+    z-index:1;
+    top:5px;
+    cursor:pointer;
+}
+.n{
+   position: absolute;
+    left:62%;
+    height:130px;
+    top:0%;
+    z-index:1; 
+    top:5px;
+    cursor:pointer;
+}
+.d{
+    position: absolute;
+    left:77%;
+    height:130px;
+    top:0%;
+    z-index:1; 
+    top:5px;
+    cursor:pointer;
+}
+.dp1{
+    position:absolute;
+    left:47%;
+    bottom:5px;
+    z-index:0;
+    width:80px;
+    height:40px;
+    border-radius:10px;
+    color:#b23a98;
+}
+.diwali{
+    position:absolute;
+    left:33%;
+    bottom:5px;
+    z-index:0;
+    width:80px;
+    height:40px;
+    border-radius:10px;
+    color:#b23a98;
+}
+.nv{
+    position: absolute;
+    left:63%;
+    bottom:5px;
+    z-index:0;
+    width:80px;
+    height:40px;
+    border-radius:10px;
+    color:#b23a98
+}
+.d1{
+    position: absolute;
+    left:77%;
+    bottom:5px;
+    z-index:0;
+    width:80px;
+    height:40px;
+    border-radius:10px;
+    color:#b23a98;
+}
+
+@media(min-width:800px){
+    .image13{
+        height:285px;
+    }
+    .dn{
+        height:54px;
+        width:150px;
+        border-radius:20px;
+        left:5%;
+        font-size:16px;
+    }
+    .image34,.dp,.n,.d{
+        height:180px;
+    }
+    .diwali,.dp1,.nv,.d1{
+        width:120px;
+        height:55px;
+        font-size:17px;
+    }
+}
+@media(min-width:1100px){
+    .dn{
+        height:65px;
+        width:180px;
+        left:7%;
+        font-size:20px;
+    }
+    .image34,.dp,.n,.d{
+        height:225px;
+    }
+    .diwali,.dp1,.nv,.d1{
+        width:135px;
+        height:60px;
+        font-size:20px;
+    }
+}
+@media(min-width:1300px){
+    .image34,.dp,.n,.d{
+        height:260px;
+    }
+    .nv,.d1,.diwali,.dp1{
+        width:150px;
+        height:66px;
+        font-size:24px;
+    }
+}
+.diwali:hover{
+    bottom:8px;
+}
+.dp1:hover{
+    bottom:8px;
+}
+.nv:hover{
+    bottom:8px;
+}
+.d1:hover{
+    bottom:8px;
+}
+.dn:hover{
+    border-style:solid;
+    border-color:#b23a98;
+}
+.dn:active{
+    opacity: 0.9;
+}
+.image34:hover {
+    top:10px;
+}
+.n:hover {
+    top:10px;
+}
+.d:hover {
+    top:10px;
+}
+.dp:hover {
+    top:10px;
+}
